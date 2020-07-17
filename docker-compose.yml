@@ -13,3 +13,8 @@ services:
             - /app/node_modules
             - .:/app
         
+
+
+# first run command: docker-compose down && docker-compose up --build
+# then maybe docker-compose up is enough!
+# try making changes in source files and see the changes reflect to home page!
